@@ -2,12 +2,14 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "publishConfig": {
+    "registry": "http://localhost:8081/repository/Node-artifacts/"
+  },
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14",
     "sonarqube-scanner": "x.x.x"
-
   },
   "scripts": {
     "start": "react-scripts start",
